@@ -28,3 +28,13 @@
 #     def order(self, dish):
 #         print(f"Вы заказали {dish} в кафе {self.name}")
 
+class Car:
+    def __init__(self, make, model):
+        self.make = make
+        self.model = model
+
+    def start_engine(self):
+        print(f"{self.make} {self.model} завелась")
+
+    def stop_engine(self):
+        print(f"{self.make} {self.model} заглохла")
